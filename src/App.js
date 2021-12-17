@@ -16,7 +16,6 @@ function App() {
     if (currentIndex + 1 >= totalLength) {
       setCurrentIndex(0);
       const newUrl = data.data[0].link;
-      console.log(newUrl);
       setClickedImg(newUrl);
       return;
     }
